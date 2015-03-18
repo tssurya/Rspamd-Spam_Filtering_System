@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblua-ucl.a  CMakeFiles/lua-ucl.dir/__/lua/lua_ucl.c.o
+/usr/bin/ranlib liblua-ucl.a

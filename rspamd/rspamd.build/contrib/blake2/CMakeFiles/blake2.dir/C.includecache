@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2-impl.h
+stdint.h
+-
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2.h
+stddef.h
+-
+stdint.h
+-
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2b-ref.c
+stdint.h
+-
+string.h
+-
+stdio.h
+-
+blake2.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2.h
+blake2-impl.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2-impl.h
+string.h
+-
+blake2-kat.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/blake2/blake2-kat.h
+

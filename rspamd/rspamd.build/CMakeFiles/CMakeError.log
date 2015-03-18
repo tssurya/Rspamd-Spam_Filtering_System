@@ -1,0 +1,236 @@
+Performing C SOURCE FILE Test AMD_64 failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2360092016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2360092016.dir/build.make CMakeFiles/cmTryCompileExec2360092016.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2360092016.dir/src.c.o
+/usr/bin/cc   -DAMD_64   -o CMakeFiles/cmTryCompileExec2360092016.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c:2:7: error: #error assume 32 bit arch
+      #error assume 32 bit arch
+       ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2360092016.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2360092016/fast] Error 2
+
+Source file was:
+#if !defined(__x86_64) && !defined(__amd64) && !defined(_M_X64)
+					#error assume 32 bit arch
+					#endif
+					int main() { return 0;}
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec665360382/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec665360382.dir/build.make CMakeFiles/cmTryCompileExec665360382.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec665360382.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec665360382.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/endian.h: No such file or directory
+ #include <sys/endian.h>
+                        ^
+compilation terminated.
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec665360382.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec665360382/fast] Error 2
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(){return 0;}
+
+Determining if files machine/endian.h exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec892181694/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec892181694.dir/build.make CMakeFiles/cmTryCompileExec892181694.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec892181694.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec892181694.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:28: fatal error: machine/endian.h: No such file or directory
+ #include <machine/endian.h>
+                            ^
+compilation terminated.
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec892181694.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec892181694/fast] Error 2
+
+Source:
+/* */
+#include <machine/endian.h>
+
+
+int main(){return 0;}
+
+Determining if files siginfo.h exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec821128383/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec821128383.dir/build.make CMakeFiles/cmTryCompileExec821128383.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec821128383.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec821128383.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: siginfo.h: No such file or directory
+ #include <siginfo.h>
+                     ^
+compilation terminated.
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec821128383.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec821128383/fast] Error 2
+
+Source:
+/* */
+#include <siginfo.h>
+
+
+int main(){return 0;}
+
+Determining if files readpassphrase.h exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3055431119/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3055431119.dir/build.make CMakeFiles/cmTryCompileExec3055431119.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3055431119.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3055431119.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:28: fatal error: readpassphrase.h: No such file or directory
+ #include <readpassphrase.h>
+                            ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3055431119.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3055431119/fast] Error 2
+
+Source:
+/* */
+#include <readpassphrase.h>
+
+
+int main(){return 0;}
+
+Determining if files libaio.h exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1845318714/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1845318714.dir/build.make CMakeFiles/cmTryCompileExec1845318714.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1845318714.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1845318714.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: libaio.h: No such file or directory
+ #include <libaio.h>
+                    ^
+compilation terminated.
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1845318714.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1845318714/fast] Error 2
+
+Source:
+/* */
+#include <libaio.h>
+
+
+int main(){return 0;}
+
+Determining if the function setproctitle exists failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1253747978/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1253747978.dir/build.make CMakeFiles/cmTryCompileExec1253747978.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1253747978.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=setproctitle -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1253747978.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec1253747978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1253747978.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=setproctitle    CMakeFiles/cmTryCompileExec1253747978.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1253747978 -rdynamic -lm -lrt -ldl 
+CMakeFiles/cmTryCompileExec1253747978.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x13): undefined reference to `setproctitle'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1253747978] Error 1
+make: *** [cmTryCompileExec1253747978/fast] Error 2
+
+
+Determining if the MAP_NOCORE exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1738182062/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1738182062.dir/build.make CMakeFiles/cmTryCompileExec1738182062.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1738182062.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1738182062.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘MAP_NOCORE’ undeclared (first use in this function)
+   return ((int*)(&MAP_NOCORE))[argc];
+                   ^
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1738182062.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1738182062/fast] Error 2
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_NOCORE
+  return ((int*)(&MAP_NOCORE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_VIRTUAL exist failed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2440239209/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2440239209.dir/build.make CMakeFiles/cmTryCompileExec2440239209.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2440239209.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2440239209.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘CLOCK_VIRTUAL’ undeclared (first use in this function)
+   return ((int*)(&CLOCK_VIRTUAL))[argc];
+                   ^
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2440239209.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2440239209/fast] Error 2
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_VIRTUAL
+  return ((int*)(&CLOCK_VIRTUAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

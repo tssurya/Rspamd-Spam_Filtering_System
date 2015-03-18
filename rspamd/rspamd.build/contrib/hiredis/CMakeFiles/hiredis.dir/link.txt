@@ -1,0 +1,2 @@
+/usr/bin/ar cr libhiredis.a  CMakeFiles/hiredis.dir/async.c.o CMakeFiles/hiredis.dir/dict.c.o CMakeFiles/hiredis.dir/hiredis.c.o CMakeFiles/hiredis.dir/net.c.o CMakeFiles/hiredis.dir/sds.c.o
+/usr/bin/ranlib libhiredis.a

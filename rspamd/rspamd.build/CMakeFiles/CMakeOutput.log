@@ -1,0 +1,1954 @@
+The system is: Linux - 3.17.0-rc5+ - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/linux/rspamd/rspamd.build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2319783631/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2319783631.dir/build.make CMakeFiles/cmTryCompileExec2319783631.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2319783631.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2319783631.dir/testCCompiler.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2319783631
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2319783631.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2319783631.dir/testCCompiler.c.o  -o cmTryCompileExec2319783631 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3363433888/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3363433888.dir/build.make CMakeFiles/cmTryCompileExec3363433888.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3363433888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3363433888.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3363433888 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3363433888' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3363433888 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3363433888/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3363433888.dir/build.make CMakeFiles/cmTryCompileExec3363433888.dir/build]
+  ignore line: [make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3363433888]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3363433888.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3363433888 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3363433888' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3363433888 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3363433888] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3363433888.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8] ==> [/usr/lib/gcc/i686-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.8;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test SUPPORT_WALL succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec156490673/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec156490673.dir/build.make CMakeFiles/cmTryCompileExec156490673.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec156490673.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WALL   -Wall -o CMakeFiles/cmTryCompileExec156490673.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec156490673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec156490673.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WALL    CMakeFiles/cmTryCompileExec156490673.dir/src.c.o  -o cmTryCompileExec156490673 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_W succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec443329935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec443329935.dir/build.make CMakeFiles/cmTryCompileExec443329935.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec443329935.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_W   -W -o CMakeFiles/cmTryCompileExec443329935.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec443329935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec443329935.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_W    CMakeFiles/cmTryCompileExec443329935.dir/src.c.o  -o cmTryCompileExec443329935 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WPOINTER succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3827090275/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3827090275.dir/build.make CMakeFiles/cmTryCompileExec3827090275.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3827090275.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPOINTER   -Wpointer-arith -o CMakeFiles/cmTryCompileExec3827090275.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3827090275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3827090275.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPOINTER    CMakeFiles/cmTryCompileExec3827090275.dir/src.c.o  -o cmTryCompileExec3827090275 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WPARAM succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec686106160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec686106160.dir/build.make CMakeFiles/cmTryCompileExec686106160.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec686106160.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPARAM   -Wno-unused-parameter -o CMakeFiles/cmTryCompileExec686106160.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec686106160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec686106160.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPARAM    CMakeFiles/cmTryCompileExec686106160.dir/src.c.o  -o cmTryCompileExec686106160 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WFUNCTION succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2758522105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2758522105.dir/build.make CMakeFiles/cmTryCompileExec2758522105.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2758522105.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WFUNCTION   -Wno-unused-function -o CMakeFiles/cmTryCompileExec2758522105.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2758522105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2758522105.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WFUNCTION    CMakeFiles/cmTryCompileExec2758522105.dir/src.c.o  -o cmTryCompileExec2758522105 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WUNUSED_VAR succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3219945950/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3219945950.dir/build.make CMakeFiles/cmTryCompileExec3219945950.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3219945950.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WUNUSED_VAR   -Wunused-variable -o CMakeFiles/cmTryCompileExec3219945950.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3219945950
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3219945950.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WUNUSED_VAR    CMakeFiles/cmTryCompileExec3219945950.dir/src.c.o  -o cmTryCompileExec3219945950 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WPOINTER_SIGN succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4177173333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4177173333.dir/build.make CMakeFiles/cmTryCompileExec4177173333.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4177173333.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPOINTER_SIGN   -Wno-pointer-sign -o CMakeFiles/cmTryCompileExec4177173333.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4177173333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4177173333.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WPOINTER_SIGN    CMakeFiles/cmTryCompileExec4177173333.dir/src.c.o  -o cmTryCompileExec4177173333 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_WSTRICT_PROTOTYPES succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1884230575/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1884230575.dir/build.make CMakeFiles/cmTryCompileExec1884230575.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1884230575.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WSTRICT_PROTOTYPES   -Wstrict-prototypes -o CMakeFiles/cmTryCompileExec1884230575.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1884230575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1884230575.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_WSTRICT_PROTOTYPES    CMakeFiles/cmTryCompileExec1884230575.dir/src.c.o  -o cmTryCompileExec1884230575 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_PEDANTIC_FLAG succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3546032753/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3546032753.dir/build.make CMakeFiles/cmTryCompileExec3546032753.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3546032753.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_PEDANTIC_FLAG   -pedantic -o CMakeFiles/cmTryCompileExec3546032753.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3546032753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3546032753.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_PEDANTIC_FLAG    CMakeFiles/cmTryCompileExec3546032753.dir/src.c.o  -o cmTryCompileExec3546032753 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_STD_FLAG succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2951333110/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2951333110.dir/build.make CMakeFiles/cmTryCompileExec2951333110.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2951333110.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_STD_FLAG   -std=c99 -o CMakeFiles/cmTryCompileExec2951333110.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2951333110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2951333110.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_STD_FLAG    CMakeFiles/cmTryCompileExec2951333110.dir/src.c.o  -o cmTryCompileExec2951333110 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test SUPPORT_FPIC succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec43888912/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec43888912.dir/build.make CMakeFiles/cmTryCompileExec43888912.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec43888912.dir/src.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_FPIC   -fPIC -o CMakeFiles/cmTryCompileExec43888912.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec43888912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec43888912.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -DSUPPORT_FPIC    CMakeFiles/cmTryCompileExec43888912.dir/src.c.o  -o cmTryCompileExec43888912 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4175010199/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4175010199.dir/build.make CMakeFiles/cmTryCompileExec4175010199.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4175010199.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4175010199.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4175010199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4175010199.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4175010199.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4175010199 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3047462187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3047462187.dir/build.make CMakeFiles/cmTryCompileExec3047462187.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3047462187.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3047462187.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3047462187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3047462187.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3047462187.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3047462187 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3011210284/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3011210284.dir/build.make CMakeFiles/cmTryCompileExec3011210284.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3011210284.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3011210284.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3011210284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3011210284.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3011210284.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3011210284 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1738831606/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1738831606.dir/build.make CMakeFiles/cmTryCompileExec1738831606.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1738831606.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1738831606.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1738831606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1738831606.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1738831606.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1738831606 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files math.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec799728049/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec799728049.dir/build.make CMakeFiles/cmTryCompileExec799728049.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec799728049.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec799728049.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec799728049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec799728049.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec799728049.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec799728049 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2998250441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2998250441.dir/build.make CMakeFiles/cmTryCompileExec2998250441.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2998250441.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2998250441.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2998250441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2998250441.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2998250441.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2998250441 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3984031611/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3984031611.dir/build.make CMakeFiles/cmTryCompileExec3984031611.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3984031611.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3984031611.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3984031611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3984031611.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3984031611.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3984031611 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3694519884/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3694519884.dir/build.make CMakeFiles/cmTryCompileExec3694519884.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3694519884.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3694519884.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3694519884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3694519884.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3694519884.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3694519884 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4023495973/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4023495973.dir/build.make CMakeFiles/cmTryCompileExec4023495973.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4023495973.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4023495973.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4023495973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4023495973.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4023495973.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4023495973 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3793281649/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3793281649.dir/build.make CMakeFiles/cmTryCompileExec3793281649.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3793281649.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3793281649.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3793281649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3793281649.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3793281649.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3793281649 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1081014933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1081014933.dir/build.make CMakeFiles/cmTryCompileExec1081014933.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1081014933.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1081014933.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1081014933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1081014933.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1081014933.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1081014933 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sysexits.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2586699310/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2586699310.dir/build.make CMakeFiles/cmTryCompileExec2586699310.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2586699310.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2586699310.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2586699310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2586699310.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2586699310.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2586699310 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec62727844/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec62727844.dir/build.make CMakeFiles/cmTryCompileExec62727844.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec62727844.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec62727844.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec62727844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec62727844.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec62727844.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec62727844 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2271279091/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2271279091.dir/build.make CMakeFiles/cmTryCompileExec2271279091.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2271279091.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2271279091.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2271279091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2271279091.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2271279091.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2271279091 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1546279374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1546279374.dir/build.make CMakeFiles/cmTryCompileExec1546279374.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1546279374.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1546279374.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1546279374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1546279374.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1546279374.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1546279374 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/queue.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2542068979/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542068979.dir/build.make CMakeFiles/cmTryCompileExec2542068979.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2542068979.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2542068979.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2542068979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2542068979.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2542068979.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2542068979 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3469116889/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3469116889.dir/build.make CMakeFiles/cmTryCompileExec3469116889.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3469116889.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3469116889.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3469116889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3469116889.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3469116889.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3469116889 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1577668186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1577668186.dir/build.make CMakeFiles/cmTryCompileExec1577668186.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1577668186.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1577668186.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1577668186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1577668186.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1577668186.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1577668186 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/un.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1670240779/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1670240779.dir/build.make CMakeFiles/cmTryCompileExec1670240779.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1670240779.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1670240779.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1670240779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1670240779.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1670240779.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1670240779 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3993499200/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3993499200.dir/build.make CMakeFiles/cmTryCompileExec3993499200.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3993499200.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3993499200.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3993499200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3993499200.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3993499200.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3993499200 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2677565116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2677565116.dir/build.make CMakeFiles/cmTryCompileExec2677565116.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2677565116.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2677565116.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2677565116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2677565116.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2677565116.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2677565116 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1614530745/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1614530745.dir/build.make CMakeFiles/cmTryCompileExec1614530745.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1614530745.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1614530745.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1614530745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1614530745.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1614530745.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1614530745 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/cdefs.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4132190496/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4132190496.dir/build.make CMakeFiles/cmTryCompileExec4132190496.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4132190496.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4132190496.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4132190496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4132190496.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4132190496.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4132190496 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/file.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4232627696/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4232627696.dir/build.make CMakeFiles/cmTryCompileExec4232627696.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4232627696.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4232627696.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4232627696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4232627696.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4232627696.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4232627696 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3743327248/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3743327248.dir/build.make CMakeFiles/cmTryCompileExec3743327248.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3743327248.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3743327248.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3743327248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3743327248.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3743327248.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3743327248 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec350122546/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec350122546.dir/build.make CMakeFiles/cmTryCompileExec350122546.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec350122546.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec350122546.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec350122546
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec350122546.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec350122546.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec350122546 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2686653879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2686653879.dir/build.make CMakeFiles/cmTryCompileExec2686653879.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2686653879.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2686653879.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2686653879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2686653879.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2686653879.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2686653879 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec860786881/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec860786881.dir/build.make CMakeFiles/cmTryCompileExec860786881.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec860786881.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec860786881.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec860786881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec860786881.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec860786881.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec860786881 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2058284460/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2058284460.dir/build.make CMakeFiles/cmTryCompileExec2058284460.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2058284460.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2058284460.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2058284460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2058284460.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2058284460.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2058284460 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files syslog.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1088341191/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1088341191.dir/build.make CMakeFiles/cmTryCompileExec1088341191.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1088341191.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1088341191.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1088341191
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1088341191.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1088341191.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1088341191 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2813924424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2813924424.dir/build.make CMakeFiles/cmTryCompileExec2813924424.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2813924424.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2813924424.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2813924424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2813924424.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2813924424.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2813924424 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files libgen.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec758054886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec758054886.dir/build.make CMakeFiles/cmTryCompileExec758054886.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec758054886.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec758054886.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec758054886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec758054886.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec758054886.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec758054886 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files search.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2668628509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2668628509.dir/build.make CMakeFiles/cmTryCompileExec2668628509.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2668628509.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2668628509.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2668628509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2668628509.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2668628509.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2668628509 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec422128649/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec422128649.dir/build.make CMakeFiles/cmTryCompileExec422128649.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec422128649.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec422128649.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec422128649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec422128649.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec422128649.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec422128649 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files grp.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3536908741/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3536908741.dir/build.make CMakeFiles/cmTryCompileExec3536908741.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3536908741.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3536908741.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3536908741
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3536908741.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3536908741.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3536908741 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files glob.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2977930104/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2977930104.dir/build.make CMakeFiles/cmTryCompileExec2977930104.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2977930104.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2977930104.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2977930104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2977930104.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2977930104.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2977930104 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files poll.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec263860608/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec263860608.dir/build.make CMakeFiles/cmTryCompileExec263860608.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec263860608.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec263860608.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec263860608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec263860608.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec263860608.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec263860608 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files termios.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2743323310/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2743323310.dir/build.make CMakeFiles/cmTryCompileExec2743323310.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2743323310.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec2743323310.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec2743323310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2743323310.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2743323310.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2743323310 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files paths.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1349846929/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1349846929.dir/build.make CMakeFiles/cmTryCompileExec1349846929.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1349846929.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1349846929.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1349846929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1349846929.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1349846929.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1349846929 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files ctype.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec250645859/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec250645859.dir/build.make CMakeFiles/cmTryCompileExec250645859.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec250645859.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec250645859.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec250645859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec250645859.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec250645859.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec250645859 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/sendfile.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1615304539/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1615304539.dir/build.make CMakeFiles/cmTryCompileExec1615304539.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1615304539.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec1615304539.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec1615304539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1615304539.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1615304539.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1615304539 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/falloc.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3092284633/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3092284633.dir/build.make CMakeFiles/cmTryCompileExec3092284633.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3092284633.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec3092284633.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3092284633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3092284633.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3092284633.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3092284633 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/eventfd.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4067154989/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4067154989.dir/build.make CMakeFiles/cmTryCompileExec4067154989.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4067154989.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4067154989.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4067154989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4067154989.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4067154989.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4067154989 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if files aio.h exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4009171476/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4009171476.dir/build.make CMakeFiles/cmTryCompileExec4009171476.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4009171476.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99    -o CMakeFiles/cmTryCompileExec4009171476.dir/CheckIncludeFiles.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec4009171476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4009171476.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4009171476.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4009171476 -rdynamic 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpagesize exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3982040776/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3982040776.dir/build.make CMakeFiles/cmTryCompileExec3982040776.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3982040776.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=getpagesize -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3982040776.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec3982040776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3982040776.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=getpagesize    CMakeFiles/cmTryCompileExec3982040776.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3982040776 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec589618506/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec589618506.dir/build.make CMakeFiles/cmTryCompileExec589618506.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec589618506.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=nanosleep -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec589618506.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec589618506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec589618506.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTryCompileExec589618506.dir/CheckFunctionExists.c.o  -o cmTryCompileExec589618506 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1847382845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1847382845.dir/build.make CMakeFiles/cmTryCompileExec1847382845.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1847382845.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=vfork -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1847382845.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec1847382845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1847382845.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=vfork    CMakeFiles/cmTryCompileExec1847382845.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1847382845 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wait4 exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2938323330/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2938323330.dir/build.make CMakeFiles/cmTryCompileExec2938323330.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2938323330.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=wait4 -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2938323330.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2938323330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2938323330.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=wait4    CMakeFiles/cmTryCompileExec2938323330.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2938323330 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3861742240/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3861742240.dir/build.make CMakeFiles/cmTryCompileExec3861742240.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3861742240.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=waitpid -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3861742240.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec3861742240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3861742240.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=waitpid    CMakeFiles/cmTryCompileExec3861742240.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3861742240 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec532723032/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec532723032.dir/build.make CMakeFiles/cmTryCompileExec532723032.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec532723032.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=flock -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec532723032.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec532723032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec532723032.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=flock    CMakeFiles/cmTryCompileExec532723032.dir/CheckFunctionExists.c.o  -o cmTryCompileExec532723032 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tanhl exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2009582962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2009582962.dir/build.make CMakeFiles/cmTryCompileExec2009582962.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2009582962.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=tanhl -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2009582962.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘tanhl’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2009582962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2009582962.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=tanhl    CMakeFiles/cmTryCompileExec2009582962.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2009582962 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tanh exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec512352355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec512352355.dir/build.make CMakeFiles/cmTryCompileExec512352355.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec512352355.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=tanh -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec512352355.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘tanh’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec512352355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec512352355.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=tanh    CMakeFiles/cmTryCompileExec512352355.dir/CheckFunctionExists.c.o  -o cmTryCompileExec512352355 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function expl exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec980097409/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec980097409.dir/build.make CMakeFiles/cmTryCompileExec980097409.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec980097409.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=expl -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec980097409.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘expl’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec980097409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec980097409.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=expl    CMakeFiles/cmTryCompileExec980097409.dir/CheckFunctionExists.c.o  -o cmTryCompileExec980097409 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exp2l exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3736624645/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3736624645.dir/build.make CMakeFiles/cmTryCompileExec3736624645.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3736624645.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=exp2l -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3736624645.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp2l’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3736624645
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3736624645.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=exp2l    CMakeFiles/cmTryCompileExec3736624645.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3736624645 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3728344673/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3728344673.dir/build.make CMakeFiles/cmTryCompileExec3728344673.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3728344673.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=sendfile -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3728344673.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec3728344673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3728344673.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=sendfile    CMakeFiles/cmTryCompileExec3728344673.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3728344673 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec625510913/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec625510913.dir/build.make CMakeFiles/cmTryCompileExec625510913.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec625510913.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=mkstemp -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec625510913.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec625510913
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec625510913.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec625510913.dir/CheckFunctionExists.c.o  -o cmTryCompileExec625510913 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setitimer exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec404604241/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec404604241.dir/build.make CMakeFiles/cmTryCompileExec404604241.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec404604241.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=setitimer -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec404604241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec404604241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec404604241.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=setitimer    CMakeFiles/cmTryCompileExec404604241.dir/CheckFunctionExists.c.o  -o cmTryCompileExec404604241 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2986192251/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2986192251.dir/build.make CMakeFiles/cmTryCompileExec2986192251.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2986192251.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=inet_pton -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2986192251.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2986192251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2986192251.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=inet_pton    CMakeFiles/cmTryCompileExec2986192251.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2986192251 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3898669925/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3898669925.dir/build.make CMakeFiles/cmTryCompileExec3898669925.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3898669925.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=clock_gettime -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3898669925.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec3898669925
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3898669925.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3898669925.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3898669925 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+
+Determining if the PATH_MAX exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2451943802/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2451943802.dir/build.make CMakeFiles/cmTryCompileExec2451943802.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2451943802.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2451943802.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2451943802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2451943802.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2451943802.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2451943802 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PATH_MAX
+  return ((int*)(&PATH_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAXPATHLEN exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1398881843/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1398881843.dir/build.make CMakeFiles/cmTryCompileExec1398881843.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1398881843.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1398881843.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1398881843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1398881843.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1398881843.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1398881843 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/param.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAXPATHLEN
+  return ((int*)(&MAXPATHLEN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAP_SHARED exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2547856522/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2547856522.dir/build.make CMakeFiles/cmTryCompileExec2547856522.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2547856522.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2547856522.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2547856522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2547856522.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2547856522.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2547856522 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_SHARED
+  return ((int*)(&MAP_SHARED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAP_ANON exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1158288353/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1158288353.dir/build.make CMakeFiles/cmTryCompileExec1158288353.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1158288353.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1158288353.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1158288353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1158288353.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1158288353.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1158288353 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_ANON
+  return ((int*)(&MAP_ANON))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_DIRECT exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec601370387/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec601370387.dir/build.make CMakeFiles/cmTryCompileExec601370387.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec601370387.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec601370387.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec601370387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec601370387.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec601370387.dir/CheckSymbolExists.c.o  -o cmTryCompileExec601370387 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_DIRECT
+  return ((int*)(&O_DIRECT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IPV6_V6ONLY exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4185246803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4185246803.dir/build.make CMakeFiles/cmTryCompileExec4185246803.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4185246803.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec4185246803.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4185246803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4185246803.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4185246803.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4185246803 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IPV6_V6ONLY
+  return ((int*)(&IPV6_V6ONLY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_fadvise exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1626638864/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1626638864.dir/build.make CMakeFiles/cmTryCompileExec1626638864.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1626638864.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1626638864.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&posix_fadvise))[argc];
+           ^
+Linking C executable cmTryCompileExec1626638864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1626638864.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1626638864.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1626638864 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fadvise
+  return ((int*)(&posix_fadvise))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4211369129/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4211369129.dir/build.make CMakeFiles/cmTryCompileExec4211369129.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4211369129.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec4211369129.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&posix_fallocate))[argc];
+           ^
+Linking C executable cmTryCompileExec4211369129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4211369129.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec4211369129.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4211369129 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fallocate exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2459509768/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2459509768.dir/build.make CMakeFiles/cmTryCompileExec2459509768.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2459509768.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2459509768.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&fallocate))[argc];
+           ^
+Linking C executable cmTryCompileExec2459509768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2459509768.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2459509768.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2459509768 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fallocate
+  return ((int*)(&fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec764845767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec764845767.dir/build.make CMakeFiles/cmTryCompileExec764845767.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec764845767.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec764845767.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&fdatasync))[argc];
+           ^
+Linking C executable cmTryCompileExec764845767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec764845767.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec764845767.dir/CheckSymbolExists.c.o  -o cmTryCompileExec764845767 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _SC_NPROCESSORS_ONLN exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3866157292/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3866157292.dir/build.make CMakeFiles/cmTryCompileExec3866157292.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3866157292.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3866157292.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3866157292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3866157292.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec3866157292.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3866157292 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _SC_NPROCESSORS_ONLN
+  return ((int*)(&_SC_NPROCESSORS_ONLN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setbit exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec438335412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec438335412.dir/build.make CMakeFiles/cmTryCompileExec438335412.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec438335412.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec438335412.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec438335412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec438335412.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec438335412.dir/CheckSymbolExists.c.o  -o cmTryCompileExec438335412 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/param.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setbit
+  return ((int*)(&setbit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2125816912/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2125816912.dir/build.make CMakeFiles/cmTryCompileExec2125816912.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2125816912.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2125816912.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:10:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&getaddrinfo))[argc];
+           ^
+Linking C executable cmTryCompileExec2125816912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2125816912.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2125816912.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2125816912 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sched_yield exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2930934212/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2930934212.dir/build.make CMakeFiles/cmTryCompileExec2930934212.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2930934212.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec2930934212.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&sched_yield))[argc];
+           ^
+Linking C executable cmTryCompileExec2930934212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2930934212.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec2930934212.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2930934212 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_yield
+  return ((int*)(&sched_yield))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_mutexattr_setpshared exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec255179436/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec255179436.dir/build.make CMakeFiles/cmTryCompileExec255179436.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec255179436.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec255179436.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&pthread_mutexattr_setpshared))[argc];
+           ^
+Linking C executable cmTryCompileExec255179436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec255179436.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec255179436.dir/CheckSymbolExists.c.o  -o cmTryCompileExec255179436 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_mutexattr_setpshared
+  return ((int*)(&pthread_mutexattr_setpshared))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SA_SIGINFO exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1236472347/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1236472347.dir/build.make CMakeFiles/cmTryCompileExec1236472347.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1236472347.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1236472347.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1236472347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1236472347.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1236472347.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1236472347 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SA_SIGINFO
+  return ((int*)(&SA_SIGINFO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_LIBEVENT2 succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3660915420/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3660915420.dir/build.make CMakeFiles/cmTryCompileExec3660915420.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3660915420.dir/src.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DHAVE_LIBEVENT2 -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec3660915420.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c:5:10: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+      int main() { return 0;}
+          ^
+Linking C executable cmTryCompileExec3660915420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3660915420.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DHAVE_LIBEVENT2    CMakeFiles/cmTryCompileExec3660915420.dir/src.c.o  -o cmTryCompileExec3660915420 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <event.h>
+					#if _EVENT_NUMERIC_VERSION < 0x02000000
+					#error Unsupported
+					#endif
+					int main() { return 0;}
+Determining if the CLOCK_PROCESS_CPUTIME_ID exist passed with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1399485711/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1399485711.dir/build.make CMakeFiles/cmTryCompileExec1399485711.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1399485711.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99  -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1399485711.dir/CheckSymbolExists.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1399485711
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1399485711.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99     CMakeFiles/cmTryCompileExec1399485711.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1399485711 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+File /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_PROCESS_CPUTIME_ID
+  return ((int*)(&CLOCK_PROCESS_CPUTIME_ID))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_ASM_PAUSE succeded with the following output:
+Change Dir: /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1904038744/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1904038744.dir/build.make CMakeFiles/cmTryCompileExec1904038744.dir/build
+make[1]: Entering directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1904038744.dir/src.c.o
+/usr/bin/cc   -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DHAVE_ASM_PAUSE -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/wait.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/time.h -I/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/sys/time.h    -o CMakeFiles/cmTryCompileExec1904038744.dir/src.c.o   -c /home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1904038744
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1904038744.dir/link.txt --verbose=1
+/usr/bin/cc  -O0 -fstrict-aliasing -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -D_GNU_SOURCE -DLINUX -pthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -pthread -fPIC  -W -Wall -Wpointer-arith -Wno-unused-parameter -Wno-unused-function -Wunused-variable -Wno-pointer-sign -Wstrict-prototypes -pedantic -std=c99 -DHAVE_ASM_PAUSE    CMakeFiles/cmTryCompileExec1904038744.dir/src.c.o  -o cmTryCompileExec1904038744 -rdynamic -lm -lrt -ldl 
+make[1]: Leaving directory `/home/linux/rspamd/rspamd.build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+                          int main (int argc, char **argv) {
+						  	__asm __volatile("pause");
+							return 0;
+						  }

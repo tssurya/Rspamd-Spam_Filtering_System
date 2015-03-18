@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/siphash/siphash.c
+siphash.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/siphash/siphash.h
+siphash_internal.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/siphash/siphash_internal.h
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/siphash/siphash.h
+stddef.h
+-
+stdint.h
+-
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/siphash/siphash_internal.h
+

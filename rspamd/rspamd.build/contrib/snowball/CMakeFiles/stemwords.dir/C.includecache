@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/snowball/examples/stemwords.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+libstemmer.h
+/home/linux/rspamd/rspamd-0.8.1/contrib/snowball/examples/libstemmer.h
+
+/home/linux/rspamd/rspamd-0.8.1/contrib/snowball/include/libstemmer.h
+

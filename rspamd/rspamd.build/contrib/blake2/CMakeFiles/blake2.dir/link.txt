@@ -1,0 +1,2 @@
+/usr/bin/ar cr libblake2.a  CMakeFiles/blake2.dir/blake2b-ref.c.o
+/usr/bin/ranlib libblake2.a

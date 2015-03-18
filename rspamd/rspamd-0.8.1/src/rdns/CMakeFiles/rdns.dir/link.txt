@@ -1,0 +1,2 @@
+/usr/bin/ar cr librdns.a  CMakeFiles/rdns.dir/src/util.c.o CMakeFiles/rdns.dir/src/logger.c.o CMakeFiles/rdns.dir/src/compression.c.o CMakeFiles/rdns.dir/src/punycode.c.o CMakeFiles/rdns.dir/src/curve.c.o CMakeFiles/rdns.dir/src/parse.c.o CMakeFiles/rdns.dir/src/packet.c.o CMakeFiles/rdns.dir/src/resolver.c.o
+/usr/bin/ranlib librdns.a

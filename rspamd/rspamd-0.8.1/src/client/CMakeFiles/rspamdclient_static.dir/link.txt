@@ -1,0 +1,2 @@
+/usr/bin/ar cr librspamdclient_static.a  CMakeFiles/rspamdclient_static.dir/rspamdclient.c.o
+/usr/bin/ranlib librspamdclient_static.a

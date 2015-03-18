@@ -1,0 +1,2 @@
+/usr/bin/ar cr libottery.a  CMakeFiles/ottery.dir/chacha_merged.c.o CMakeFiles/ottery.dir/ottery.c.o CMakeFiles/ottery.dir/ottery_cpuinfo.c.o CMakeFiles/ottery.dir/ottery_entropy.c.o CMakeFiles/ottery.dir/ottery_global.c.o
+/usr/bin/ranlib libottery.a
